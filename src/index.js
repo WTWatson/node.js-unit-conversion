@@ -1,5 +1,10 @@
-(() => {
-    console.log('self calling');
-});
 
-console.log('xxx');
+import temperature from './lib/temperature';
+
+let covert = {
+
+    temperature: temperature
+
+};
+
+export default covert;
