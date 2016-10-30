@@ -1,0 +1,29 @@
+{
+  "name": "node.js-unit-conversion",
+  "version": "0.0.1",
+  "description": "This library converts one unit of measurement to some other unit.",
+  "main": "./distribution/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WTWatson/node.js-unit-conversion.git"
+  },
+  "keywords": [
+    "unit",
+    "coversion"
+  ],
+  "author": "Will Watson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WTWatson/node.js-unit-conversion/issues"
+  },
+  "homepage": "https://github.com/WTWatson/node.js-unit-conversion#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  }
+}
